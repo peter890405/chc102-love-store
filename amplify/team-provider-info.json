@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "chc102lovestore5f043753": {}
+      },
+      "api": {
+        "chc102lovestore": {}
+      },
+      "storage": {
+        "imagestorage": {}
       }
     }
   }
