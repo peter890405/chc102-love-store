@@ -131,6 +131,7 @@ const App = ({ signOut }) => {
             {note.name}
           </Text>
           <Text as="span">效期:{note.month}月</Text>
+          <Text as="span">{note.day}日</Text>
           <Text as="span">價格:{note.price}元</Text>
           {note.image && (
             <Image
