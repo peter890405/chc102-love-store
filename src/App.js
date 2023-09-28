@@ -72,7 +72,7 @@ const App = ({ signOut }) => {
 
   return (
     <View className="App">
-      <Heading level={1}>促銷系統</Heading>
+      <Heading level={1}>2023年促銷系統</Heading>
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="row" justifyContent="center">
           <TextField
@@ -118,7 +118,7 @@ const App = ({ signOut }) => {
           </Button>
         </Flex>
       </View>
-      <Heading level={2}>目前促銷</Heading>
+      <Heading level={2}>目前促銷商品</Heading>
       <View margin="3rem 0">
         {notes.map((note) => (
         <Flex
@@ -130,8 +130,8 @@ const App = ({ signOut }) => {
           <Text as="strong" fontWeight={700}>
             {note.name}
           </Text>
-          <Text as="span">效期:{note.month}月</Text>
-          <Text as="span">{note.day}日</Text>
+          <Text as="span">效期:{note.month}月{note.day}日</Text>
+          {/* <Text as="span">{note.day}日</Text> */}
           <Text as="span">價格:{note.price}元</Text>
           {note.image && (
             <Image
