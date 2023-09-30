@@ -140,9 +140,9 @@ const App = ({ signOut }) => {
               style={{ width: 100, height:100 }}
             />
         )}
-    <Button variation="link" onClick={() => deleteNote(note)}>
+    {/* <Button variation="link" onClick={() => deleteNote(note)}>
       Delete note
-    </Button>
+    </Button> */}
   </Flex>
 ))}
       </View>

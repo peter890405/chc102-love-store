@@ -2,10 +2,8 @@
   "resourceName": "imagestorage",
   "policyUUID": "c84f0b64",
   "bucketName": "chc102lovestore253be1005ef6434c87dbf2e8feb3ad77",
-  "storageAccess": "authAndGuest",
-  "guestAccess": [
-    "READ"
-  ],
+  "storageAccess": "auth",
+  "guestAccess": [],
   "authAccess": [
     "CREATE_AND_UPDATE",
     "READ"
